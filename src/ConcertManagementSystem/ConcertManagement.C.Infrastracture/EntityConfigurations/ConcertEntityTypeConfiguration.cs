@@ -17,7 +17,7 @@ internal class ConcertEntityTypeConfiguration : IEntityTypeConfiguration<Concert
 
         builder.Property(c => c.DateTime)
             .HasColumnName("date_time")
-            .HasColumnType("timestamp without time zone")
+            .HasColumnType("datetime2")
             .IsRequired();
 
         

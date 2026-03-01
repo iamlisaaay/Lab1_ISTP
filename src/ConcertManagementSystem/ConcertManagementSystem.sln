@@ -12,6 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertManagement.C.Infrast
 		{2F6C7358-B784-4B40-8747-DFE2A4DDB3C6} = {2F6C7358-B784-4B40-8747-DFE2A4DDB3C6}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertManagement.Web", "ConcertManagement.Web\ConcertManagement.Web.csproj", "{09BADC46-3C3F-4D66-A7C2-D11B7DE716E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCCF337E-3BE8-45B8-9916-E99E43A15261} = {DCCF337E-3BE8-45B8-9916-E99E43A15261}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +31,10 @@ Global
 		{DCCF337E-3BE8-45B8-9916-E99E43A15261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCCF337E-3BE8-45B8-9916-E99E43A15261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCCF337E-3BE8-45B8-9916-E99E43A15261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09BADC46-3C3F-4D66-A7C2-D11B7DE716E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BADC46-3C3F-4D66-A7C2-D11B7DE716E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BADC46-3C3F-4D66-A7C2-D11B7DE716E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BADC46-3C3F-4D66-A7C2-D11B7DE716E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
