@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConcertManagement.Domain.Entities
+namespace ConcertManagement.Domain.Entities 
 {
-    internal class Class1
+    public abstract class Entity
     {
+        public int Id { get; set; }
     }
 }

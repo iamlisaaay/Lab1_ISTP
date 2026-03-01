@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConcertManagement.Domain.Entities
 {
-    internal class Class1
+
+    public class Venue : Entity, IAggregateRoot
     {
+        public string Name { get; set; } = string.Empty;    
+        public string Address { get; set; } = string.Empty; 
+        public int Capacity { get; set; }                   
+        public int TotalSeats { get; set; }                 
+        public int TotalRows { get; set; }                  
+
+        public virtual ICollection<Concert> Concerts { get; set; } = new List<Concert>();
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConcertManagement.Domain.Entities
 {
-    internal interface Interface1
+    internal interface IAggregateRoot
     {
     }
 }
